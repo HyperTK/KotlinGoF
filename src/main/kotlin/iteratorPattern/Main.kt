@@ -17,6 +17,4 @@ fun main(args: Array<String>) {
     for (i in bookShelf) {
         println(i.getName())
     }
-
-
 }

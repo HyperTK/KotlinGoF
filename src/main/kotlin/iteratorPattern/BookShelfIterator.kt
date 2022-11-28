@@ -19,7 +19,7 @@ class BookShelfIterator(private val bookShelf: BookShelf) : Iterator<Book> {
         require(hasNext()){NoSuchElementException()}
         val book = bookShelf.getBookAt(index)
         index++
-        return book
+        return book!!
     }
 
 }
